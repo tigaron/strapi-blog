@@ -112,3 +112,4 @@ exports
 *.cache
 build
 .strapi-updater.json
+s3-policy.json
