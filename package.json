@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.1",
+    "@strapi/plugin-graphql": "^4.3.2",
+    "@strapi/plugin-i18n": "4.3.2",
+    "@strapi/plugin-users-permissions": "4.3.2",
+    "@strapi/strapi": "4.3.2",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0",
+    "reading-time": "^1.5.0",
+    "slugify": "^1.6.5",
+    "strapi-plugin-slugify": "^2.2.2"
+  },
+  "author": {
+    "name": "tigaron"
+  },
+  "strapi": {
+    "uuid": "bd6c3080-eee7-47bd-a3de-5b94d04b3259"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  }
+}
